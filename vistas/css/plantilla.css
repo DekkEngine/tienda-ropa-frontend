@@ -1,0 +1,103 @@
+/*
+Global
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul ol {
+  padding: 0;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active {
+  list-style: none;
+  text-decoration: none;
+}
+
+.barraSuperior {
+  background-color: #000;
+}
+.barraSuperior a{
+  color: #fff;
+}
+
+.backColor, .backColor a {
+  background-color: #47bac1;
+  color: #fff;
+}
+
+/*
+Redes sociales
+*/
+.redSocial {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+/*FACEBOOK*/
+.facebookColor {
+  color: #fff;
+  background-color: #46639f
+}
+
+/*youtube*/
+.youtubeColor{
+  color: #fff;
+  background-color: #d6513e;
+}
+/*twitter*/
+.twitterColor{
+  color: #fff;
+  background-color: #0ab2e6;
+}
+/*Google*/
+.googleColor{
+  color: #fff;
+  background-color: #d71617;
+}
+/*Instagram*/
+.instagramColor{
+  color: #fff;
+  background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2);
+}
+
+/*
+ESCRITORIO GRANDE LG 1366 en adelante
+*/
+@media (min-width: 1200px){
+  .col-lg-0 {
+    display: none;
+  }
+}
+
+/*
+ESCRITORIO MEDIANO MD 1024
+*/
+@media (min-width:1199px) and (min-width:992px){
+  .col-md-0 {
+    display: none;
+  }
+}
+
+/*
+ESCRITORIO PEQUEÑO SM 768
+*/
+@media (min-width:991px) and (min-width:768px){
+  .col-sm-0 {
+    display: none;
+  }
+}
+
+/*
+MOVIL XS 320px
+*/
+@media (min-width:767px){
+  .col-xs-0 {
+    display: none;
+  }
+}

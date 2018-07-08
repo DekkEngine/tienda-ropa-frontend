@@ -1,0 +1,174 @@
+/* TOP */
+#top ul{
+  padding-top: 8px;
+}
+#top ul li {
+  display: inline;
+  line-height: 30px;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.social ul li a i{
+  font-size: 18px;
+  margin: 0 1px;
+}
+
+.registro ul {
+  text-align: right;
+  font-size: 12px;
+}
+
+/*HEADER*/
+
+header #btnCategorias {
+  margin: 20px 0;
+}
+header #btnCategorias p{
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+
+header #btnCategorias p span{
+  cursor: pointer;
+}
+
+header #buscador {
+  margin: 20px 0;
+}
+
+header #buscador input {
+  padding: 19px;
+  border-radius: 0;
+}
+
+header #buscador button {
+  padding: 9px;
+  border: 1px solid silver;
+  border-radius: 0;
+}
+
+header #carrito {
+  margin: 20px 0;
+}
+
+header #carrito button {
+  padding: 9px 15px;
+  border: 1px solid silver;
+  border-radius: 0;
+}
+
+header #carrito p {
+  padding: 2px;
+  padding-left: 60px;
+  border: 1px solid #aaa;
+  font-size: 12px;
+}
+
+header #categorias {
+  display: none;
+  margin-top: -10px;
+  position: relative;
+}
+
+header #categorias h4{
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+header #categorias hr{
+  border: 1px solid rgba(255,255,255,.3);
+}
+
+/*
+ESCRITORIO GRANDE LG 1366 en adelante
+*/
+@media (min-width: 1200px){
+
+  /*Header*/
+  header #logotipo img{
+    width: 100%;
+    height: 100%;
+    padding: 20px 60px;
+    padding-left: 0;
+  }
+
+  header #carrito {
+    padding-left: 100px;
+  }
+
+}
+
+/*
+ESCRITORIO MEDIANO MD 1024
+*/
+@media (max-width:1199px) and (min-width:992px){
+
+  /*Header*/
+  header #logotipo img{
+    width: 100%;
+    height: 100%;
+    padding: 25px 60px;
+    padding-left: 0;
+  }
+
+  header #carrito {
+    padding-left: 70px;
+  }
+}
+
+/*
+ESCRITORIO PEQUEÑO SM 768
+*/
+@media (max-width:991px) and (min-width:768px){
+
+  /*Header*/
+  header #logotipo img{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  header #carrito {
+    padding-left: 55px;
+  }
+
+  header #carrito p {
+    display: none;
+  }
+}
+
+/*
+MOVIL XS 320px
+*/
+@media (max-width:767px){
+
+  /*TOP*/
+  #top ul {
+    text-align: center;
+  }
+
+  #top #registro {
+    border-top: 1px solid #222;
+  }
+
+  /*Header*/
+  header #logotipo img{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+
+  header #categoria {
+    margin-bottom: 10px;
+  }
+
+  header #buscador {
+    margin-bottom: 10px;
+  }
+
+  header #carrito {
+    margin: 0;
+  }
+}
